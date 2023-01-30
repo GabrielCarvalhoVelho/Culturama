@@ -6,12 +6,14 @@
     flex-wrap: wrap;
     column-gap: 33px;
 }
+
 /*Categorias*/
 .categorias__lista {
     display: flex;
     flex-direction: column;
     row-gap: .5rem;   
 }
+
 /*Destaques*/
 .destaques {
     display: flex;
@@ -22,6 +24,7 @@
 .destaques__barra {
     flex-grow: 1;
 }
+
 /*Eventos*/
 .eventos__lista {
     display: flex;
@@ -55,16 +58,19 @@
     .menu{
         column-gap: 75px;
     }
+    
     /*Categorias*/
     .categorias__lista {
         flex-wrap: wrap;
         column-gap: 1.5rem;
         row-gap: 1rem;  
     }
+    
     /*Eventos*/
     .eventos__lista {
         justify-content: end;
     }
+    
     /*Agenda*/
     .agenda__lista {
         justify-content: end;
@@ -94,7 +100,8 @@
     .menu__item:nth-child(5) {
         order: 2;
     }
-
+    
+    /*Agenda*/
     .agenda__lista {
         justify-content: center;
     }
